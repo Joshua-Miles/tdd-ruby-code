@@ -15,4 +15,6 @@ thor = Hero.new([
     }
 ])
 
+
+
 binding.pry

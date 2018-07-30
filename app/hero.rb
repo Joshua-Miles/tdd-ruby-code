@@ -18,10 +18,17 @@ class Hero
         end
         coolest_ability
     end
+    
+    def abilities
+        @abilities.map do | ability |
+            ability[:name]
+        end
+    end
 
     # Returns abilities Ordered Alphabetically 
     def ordered_abilities
-       
+        abilities.sort
     end
+
 
 end
